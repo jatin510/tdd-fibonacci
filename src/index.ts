@@ -1,3 +1,3 @@
-export function fibonacci(num: number) {
-  return 0;
+export function fibonacci(index: number) {
+  return index;
 }
