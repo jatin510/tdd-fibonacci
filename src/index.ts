@@ -1,3 +1,7 @@
 export function fibonacci(index: number) {
-  return index;
+  if (index < 2) {
+    return index;
+  } else {
+    return index - 1;
+  }
 }
