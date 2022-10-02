@@ -1,4 +1,7 @@
-export function fibonacci(index: number) {
-  const arr = [0, 1, 1, 2, 3, 5, 8];
-  return arr[index];
+export function fibonacci(index: number): number {
+  if (index < 2) {
+    return index;
+  } else {
+    return fibonacci(index - 1) + fibonacci(index - 2);
+  }
 }

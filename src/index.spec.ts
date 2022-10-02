@@ -22,4 +22,8 @@ describe('Fibonacci serries', () => {
   test('when the input is 6 return 8', () => {
     expect(fibonacci(6)).toEqual(8);
   });
+
+  test('when the input is 8 return 21', () => {
+    expect(fibonacci(8)).toEqual(21);
+  });
 });
