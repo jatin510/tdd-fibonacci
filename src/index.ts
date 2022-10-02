@@ -1,2 +1,3 @@
-// eslint-disable-next-line no-console
-console.log('Hello world!');
+export function fibonacci(num: number) {
+  return 0;
+}
