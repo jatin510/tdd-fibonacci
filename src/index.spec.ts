@@ -18,4 +18,8 @@ describe('Fibonacci serries', () => {
   test('when the input is 5 return 5', () => {
     expect(fibonacci(5)).toEqual(5);
   });
+
+  test('when the input is 6 return 8', () => {
+    expect(fibonacci(6)).toEqual(8);
+  });
 });
